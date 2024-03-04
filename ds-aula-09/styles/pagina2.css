@@ -1,0 +1,176 @@
+body{
+    width : 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+header{
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(rgb(12, 92, 129) , rgb(56, 113, 166))  ;
+    display: grid;
+    justify-content: space-around;
+}
+#imagem img{
+    width: 6%;
+    position: absolute;
+    top: 0%;
+}
+#eu {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+    left: 13%;
+    position: absolute;
+    
+}
+
+ #eu h2 {
+    width: 50%;
+    top: 50%;
+    margin: 0 auto;
+   
+    text-align: left;
+   
+}
+
+
+
+#eu div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 25px;
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 4px rgb(111, 151, 145); 
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    width: 70%;
+    position: absolute;
+   
+    top: 369px;
+   
+   
+}
+
+#eu img {
+    width: 100%; 
+    height: auto;
+}
+
+
+#eu p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #666; 
+    
+}
+#pokemom{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 40px;
+    left: 13%;
+    position: absolute;
+    
+}
+
+  #opa h3 {
+    width: 100%;
+    top: 455px;
+   position: absolute;
+    margin: 0 auto;
+    left: 14%;
+    text-align: left;
+    font-size: 157% ;
+   
+}
+input{
+    width: 50%;
+    height: 3%;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+
+
+#pokemom div {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 25px;
+    background-color: #ffffff; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 2px 4px rgb(111, 151, 145); 
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 25px;
+   width: 70%;
+    position: absolute;
+    top: 80%;
+   
+   
+}
+
+#pokemom img {
+    width: 100%; 
+    height: auto;
+}
+
+
+
+#pokemom p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #666; 
+    
+}
+button{
+    width: 10%;
+   position: absolute;
+   top: 96%;
+   left: 43%;
+   color: rgb(0, 0, 0);
+   background-color: #666;
+}
+@media only screen and (max-width: 566px) {
+  #eu div{
+    position: absolute;
+    top: 550px;
+  }
+  #eu img{
+    width: 160%; 
+    height: auto;
+  }
+
+  #opa h3{
+    position: absolute;
+    top: 640px;
+  }
+  #imagem img{
+    width: 20%; 
+    height: auto;
+  }
+  input{
+    left: 30%;
+  }
+  
+}
+@media only screen and (max-width: 734px) {
+  button{
+    position: absolute;
+    top: 130%;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  button{
+    position: absolute;
+    top: 220%;
+    width: 152px;
+    left: 30%;
+
+  }
+}

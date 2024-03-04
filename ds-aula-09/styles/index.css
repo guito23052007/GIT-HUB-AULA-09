@@ -1,0 +1,149 @@
+body{
+    width : 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+body img{
+width : 100%;
+height: 100vh;
+display: grid;
+}
+
+main div{
+width: 26%;
+height: 45%;
+position: absolute;
+top:21%;
+left: 35%;
+text-align: center;
+
+
+box-shadow: 0 0 30px rgba(255, 255, 255, 0.479);
+
+}
+h2{
+color: white;
+font-size: 40px;
+position: absolute;
+top: -20px;
+left: 37%;
+text-shadow: 0.1em 0.1em #fb020285
+}
+#opa{
+width: 360px;
+height: 10px; 
+top: 130px;
+left: 30px;
+padding: 13px; 
+background-color: rgba(0, 0, 0, 0.189);
+}
+h5{
+color: white;
+font-size: 15px;
+position: absolute;
+top: 87px;
+left: 34px;
+text-shadow: 0.1em 0.1em #fb0404     
+}
+#senha{
+width: 78%;
+height: 10px; 
+top: 235px;
+left: 30px;
+padding: 13px; 
+background-color: rgba(0, 0, 0, 0.298); 
+}
+h4{
+color: rgba(255, 255, 255, 0.899);
+font-size: 17px;
+position: absolute;
+top: 191px;
+left: 33px;
+text-shadow: 0.1em 0.1em #ae0d0d    
+}
+button{
+width: 85%;
+height: 44px;
+position: absolute;
+top: 83%;
+left: 30px;
+background: linear-gradient(rgba(234, 6, 184, 0.328) , rgba(207, 226, 4, 0.328))  ;
+text-align: center; 
+color: rgba(254, 254, 254, 0.949);
+font-family: "Tilt Warp", sans-serif;
+font-size: 18px;
+border-radius: 100px;
+transition: all 0.2s ease-in-out 100ms;
+}
+button:hover{
+color: rgb(1, 255, 119);
+}
+input{
+width: 78%;
+
+height: 10px; 
+position: absolute;
+top: 135px;
+left: 30px;
+padding: 13px; 
+background-color: rgba(0, 0, 0, 0.044);
+border-radius: 100px ;
+}
+#senha{
+    background-color: rgba(24, 23, 23, 0.048);
+    
+}
+@media only screen and (max-width: 1189px) {
+    body img {
+        height: 100vh;
+        display: grid; 
+    }
+
+    main div {
+        width: 100%; 
+        height: 40%;
+        top: 100px;
+        left: 1%;
+        right: 20%;
+        padding: 20px;
+       
+    }
+
+    h2 {
+        font-size: 30px; 
+        left: 38%; 
+        top: -25px;
+        
+      
+    }
+
+    #opa, #senha {
+        width: 50%; 
+        left: 23%; 
+        top: 165px;
+    }
+
+    h5 {
+        top: 16px;
+        left: 24%;
+    }
+
+    h4 {
+        top: 124px; 
+        left: 24%;
+    }
+
+    button {
+        width: 60%; 
+        top: 280px;
+        left: 20%; 
+    }
+
+    input {
+        width: 50%; 
+        top: 60px; 
+        left: 23%; 
+    }
+  
+}
