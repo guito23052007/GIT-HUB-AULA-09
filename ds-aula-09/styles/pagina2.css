@@ -168,7 +168,7 @@ button{
 @media only screen and (max-width: 450px) {
   button{
     position: absolute;
-    top: 220%;
+    top: 180%;
     width: 152px;
     left: 30%;
 
