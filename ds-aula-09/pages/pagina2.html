@@ -9,13 +9,29 @@
 </head>
 
 <body>
-    <header>
+
+    <div class="container">
+        <h1>Pokémon Info</h1>
+   
+        <div class="search-container">
+            <input type="text" class="search-input" id="input" placeholder="Enter Pokémon name or number">
+            <button class="search-button">Search</button>
+        </div>
+    
+        <div class="pokemon"></div>
+        <div class="error">
+            Pokémon não encontrado!</div>
+    </div>
+</header>
         <div>
 
 
         </div>
     </header>
-    <input type="text" placeholder="Pesquisar" id="user">
+    <div class="search-container">
+        <input type="text" class="search-input" id="input" placeholder="Enter Pokémon name or number">
+        <button class="search-button">Search</button>
+    </div>
     <div id="imagem"><img src="./../assets/th.jpg" alt=""></div>
     <main>
         <div id="eu">
@@ -60,6 +76,7 @@
         <button>voltar para cima</button>
 
     </footer>
+    <script src="./../js/pokeapi.js"></script>
 </body>
 
 </html>
