@@ -13,6 +13,11 @@ header{
     display: grid;
     justify-content: space-around;
 }
+button{
+  position: absolute;
+  top: 5%;
+  left: 63%;
+}
 #imagem img{
     width: 6%;
     position: absolute;
@@ -35,8 +40,6 @@ header{
     text-align: left;
    
 }
-
-
 
 #eu div {
     display: grid;
@@ -77,12 +80,12 @@ header{
     
 }
 
-  #opa h3 {
+  #eu h3 {
     width: 100%;
-    top: 455px;
+    top: 340px;
    position: absolute;
     margin: 0 auto;
-    left: 14%;
+    left: 0%;
     text-align: left;
     font-size: 157% ;
    
@@ -126,14 +129,7 @@ input{
     color: #666; 
     
 }
-button{
-    width: 10%;
-   position: absolute;
-   top: 96%;
-   left: 43%;
-   color: rgb(0, 0, 0);
-   background-color: #666;
-}
+
 @media only screen and (max-width: 566px) {
   #eu div{
     position: absolute;
@@ -146,7 +142,7 @@ button{
 
   #opa h3{
     position: absolute;
-    top: 640px;
+    top: 1000px;
   }
   #imagem img{
     width: 20%; 
@@ -157,20 +153,13 @@ button{
   }
   
 }
-@media only screen and (max-width: 734px) {
-  button{
-    position: absolute;
-    top: 130%;
-    width: 150px;
-  }
-}
+@media only screen and (max-width: 400px) {
 
-@media only screen and (max-width: 450px) {
-  button{
-    position: absolute;
-    top: 180%;
-    width: 152px;
-    left: 30%;
 
+  #opa h3{
+    position: absolute;
+    top: 30%;
   }
+ 
+  
 }

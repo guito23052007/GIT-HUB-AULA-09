@@ -1,18 +1,17 @@
-const baseUrl = 'https://pokeapi.co/api/v2/pokemon/';
 
+const baseUrl = 'https://pokeapi.co/api/v2/pokemon/';
 const searchInput = getElement('.search-input'),
       searchButton = getElement('.search-button'),
       container = getElement('.pokemon'),
       erroMessage = getElement('.error');
-
 var pokeName, 
     pokemon, 
     card; 
 
+
 function getElement(element) {
   return document.querySelector(element);
 }
-
 
 function requestPokeInfo(url, name) {
   fetch(url + name)
@@ -22,7 +21,6 @@ function requestPokeInfo(url, name) {
     })
     .catch(err => console.log(err));
 }
-
 
 function createCard () {
   card = `
@@ -40,12 +38,11 @@ function createCard () {
   return card;
 }
 
-
 function startApp(pokeName) {
   requestPokeInfo(baseUrl, pokeName);
 
   setTimeout(function () {
-  
+   
     if(pokemon.detail) {
       erroMessage.style.display = 'block';
       container.style.display = 'none';
